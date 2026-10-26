@@ -24,6 +24,11 @@ allow-licenses:
 #  - LGPL-3.0
 #  - SSPL-1.0
 
+# Fail on both production dependencies and development tools
+fail-on-scopes:
+  - 'runtime'
+  - 'development'
+
 # Allow scopes for exceptions (use sparingly)
 # allow-scopes:
 #   - "development"
