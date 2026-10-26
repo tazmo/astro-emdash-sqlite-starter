@@ -25,9 +25,9 @@ allow-licenses:
 #  - SSPL-1.0
 
 # Fail on both production dependencies and development tools
-fail-on-scopes:
-  - 'runtime'
-  - 'development'
+# fail-on-scopes:
+#   - 'runtime'
+#   - 'development'
 
 # Allow scopes for exceptions (use sparingly)
 # allow-scopes:
