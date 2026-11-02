@@ -56,7 +56,7 @@
     "better-sqlite3": "^12.8.0",
     "clsx": "^2.1.1",
     "cva": "1.0.0-beta.8",
-    "emdash": "^1.4.0",
+    "emdash": "^0.36.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "schema-dts": "^2.1.0",
@@ -68,17 +68,17 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.12",
     "@astrojs/starlight": "^0.42.8",
-    "@eslint/js": "^10.0.1",
+    "@eslint/js": "^9.39.5",
     "@playwright/test": "^1.62.1",
     "@types/node": "^24.0.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
     "@typescript-eslint/eslint-plugin": "^8.67.0",
-    "@typescript-eslint/parser": "^8.67.0",
+    "@typescript-eslint/parser": "^6.15.0",
     "astro-eslint-parser": "^3.2.0",
-    "eslint": "^10.8.1",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-astro": "^3.1.0",
+    "eslint": "^4.0.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-astro": "^3.2.1",
     "globals": "^17.11.0",
     "pagefind": "^1.5.2",
     "prettier": "^3.9.6",
@@ -88,7 +88,10 @@
     "stylelint-config-recommended-scss": "^17.0.1",
     "stylelint-config-standard": "^40.0.0",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.72.1",
+    "typescript-eslint": "^7.3.1",
     "vitest": "^5.0.5"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true
   }
 }
