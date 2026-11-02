@@ -3,7 +3,7 @@
 
 # Severity thresholds for failing the build
 # Options: low, moderate, high, critical
-fail-on-severity: moderate
+fail-on-severity: critical
 
 # Allow licenses (SPDX identifiers)
 # Using OSI-approved permissive licenses + CC0
