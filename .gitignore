@@ -43,6 +43,9 @@ Thumbs.db
 .vscode/
 .history
 
+# intellij
+.idea
+
 # Project-specific
 *.log
 *.tmp
