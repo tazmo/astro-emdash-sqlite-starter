@@ -14,7 +14,7 @@ sidebar:
 ## Clone & Install
 
 ```bash
-git clone https://github.com/milzamsz/astro-emdash-sqlite-r2-starter.git
+git clone https://github.com/tazmo/astro-emdash-sqlite-starter.git
 cd astro-emdash-sqlite-r2-starter
 pnpm install
 ```

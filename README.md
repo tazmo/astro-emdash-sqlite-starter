@@ -18,7 +18,7 @@ A production-ready marketing + blog + docs site built with **Astro 7** and the *
 ## Quick Start
 
 ```bash
-git clone https://github.com/milzamsz/astro-emdash-sqlite-starter.git
+git clone https://github.com/tazmo/astro-emdash-sqlite-starter.git
 cd astro-emdash-sqlite-starter
 pnpm install
 pnpm dev

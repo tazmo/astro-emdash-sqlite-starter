@@ -227,10 +227,10 @@ export default defineConfig({
         SiteTitle: "./src/components/docs/SiteTitle.astro",
       },
       editLink: {
-        baseUrl: "https://github.com/milzamsz/astro-emdash-sqlite-r2-starter/edit/main",
+        baseUrl: "https://github.com/tazmo",
       },
       social: [
-        { icon: "github", label: "GitHub", href: "https://github.com/milzamsz/astro-emdash-sqlite-r2-starter" },
+        { icon: "github", label: "GitHub", href: "https://github.com/tazmo" },
       ],
       sidebar: [
         {

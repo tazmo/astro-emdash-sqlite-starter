@@ -42,7 +42,7 @@ export const footerNav = {
   /** Social media and contact links */
   social: [
     {
-      href: "https://github.com/milzamsz/astro-emdash-sqlite-r2-starter",
+      href: "https://github.com/tazmo",
       labelKey: "footer.github",
     },
     { href: "https://twitter.com/yourhandle", labelKey: "footer.twitter" },
@@ -51,7 +51,7 @@ export const footerNav = {
       labelKey: "footer.linkedin",
     },
   ] as const,
-} as const;
+} as const; 
 
 /** Helper function to get navigation items by section */
 export function getFooterNav(section: keyof typeof footerNav): NavItem[] {

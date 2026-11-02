@@ -103,7 +103,7 @@ export const siteConfig: SiteConfig = {
   socialLinks: [
     {
       platform: "github",
-      url: "https://github.com/milzamsz/astro-emdash-sqlite-r2-starter",
+      url: "https://github.com/tazmo",
       label: "GitHub",
     },
     {
