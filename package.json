@@ -4,7 +4,7 @@
   "private": true,
   "description": "Marketing + blog + docs starter with Astro and EmDash CMS (SQLite local / Dokploy + R2 in production)",
   "license": "MIT",
-  "packageManager": "pnpm@12.16.1",
+  "packageManager": "pnpm@10.34.5",
   "type": "module",
   "engines": {
     "node": "^24.0.0",
