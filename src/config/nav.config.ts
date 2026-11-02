@@ -30,10 +30,10 @@ export const mainNav: NavItem[] = [
 /** Footer navigation grouped by section */
 export const footerNav = {
   /** Product and service links */
-  product: [
+//  product: [
 //    { href: "/services", labelKey: "nav.services" },
 //    { href: "/pricing", labelKey: "nav.pricing" },
-  ] as const,
+//  ] as const,
   /** Legal pages and terms */
   legal: [
     { href: "/privacy", labelKey: "footer.privacy" },
