@@ -20,10 +20,10 @@ export interface NavItem {
 /** Main navigation items for header */
 export const mainNav: NavItem[] = [
   { href: "/", labelKey: "nav.home" },
-  { href: "/about", labelKey: "nav.about" },
-  { href: "/services", labelKey: "nav.services" },
-  { href: "/pricing", labelKey: "nav.pricing" },
-  { href: "/blog", labelKey: "nav.blog" },
+//  { href: "/about", labelKey: "nav.about" },
+  { href: "/terms", labelKey: "Terms" },
+  { href: "/privacy", labelKey: "Privacy" },
+//  { href: "/blog", labelKey: "nav.blog" },
   { href: "/contact", labelKey: "nav.contact" },
 ] as const;
 
@@ -31,8 +31,8 @@ export const mainNav: NavItem[] = [
 export const footerNav = {
   /** Product and service links */
   product: [
-    { href: "/services", labelKey: "nav.services" },
-    { href: "/pricing", labelKey: "nav.pricing" },
+//    { href: "/services", labelKey: "nav.services" },
+//    { href: "/pricing", labelKey: "nav.pricing" },
   ] as const,
   /** Legal pages and terms */
   legal: [
@@ -45,9 +45,9 @@ export const footerNav = {
       href: "https://github.com/tazmo",
       labelKey: "footer.github",
     },
-    { href: "https://twitter.com/yourhandle", labelKey: "footer.twitter" },
+//    { href: "https://twitter.com/yourhandle", labelKey: "footer.twitter" },
     {
-      href: "https://linkedin.com/in/yourprofile",
+      href: "https://www.linkedin.com/in/bob-cauthen/",
       labelKey: "footer.linkedin",
     },
   ] as const,

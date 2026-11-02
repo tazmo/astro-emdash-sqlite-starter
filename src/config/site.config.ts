@@ -91,12 +91,12 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   /* Core configuration — single source of truth for canonical/OG/sitemap/llms.txt.
    * Replace with your production domain when forking this template. */
-  url: "https://astro-cloudflare.pages.dev",
-  name: "Astro EmDash",
+  url: "https://brainmanta.com",
+  name: "BrainManta Software",
   description:
-    "Marketing, blog, and docs starter built with Astro and the EmDash CMS, self-hosted with Docker — multilanguage-ready",
-  author: "Your Name",
-  email: "your.email@example.com",
+    "Sleek code. Endless platforms.",
+  author: "Bob Cauthen",
+  email: "info@brainmanta.com",
   authorImage: "/images/author.jpg",
 
   /* Social links */
@@ -106,17 +106,17 @@ export const siteConfig: SiteConfig = {
       url: "https://github.com/tazmo",
       label: "GitHub",
     },
-    {
+/*     {
       platform: "twitter",
       url: "https://twitter.com/yourhandle",
       label: "Twitter",
-    },
+    }, */
     {
       platform: "linkedin",
-      url: "https://linkedin.com/in/yourprofile",
+      url: "https://www.linkedin.com/in/bob-cauthen/",
       label: "LinkedIn",
     },
-    { platform: "email", url: "mailto:your.email@example.com", label: "Email" },
+    { platform: "email", url: "mailto:info@brainmanta.com", label: "Email" },
   ],
 
   /* Header settings */
