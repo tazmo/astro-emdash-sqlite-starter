@@ -1,5 +1,6 @@
+allowBuilds:
+  '@pnpm/exe': true
+  better-sqlite3: true
+  esbuild: true
 # pnpm 10 configuration
 # Native modules that need build scripts (postinstall) to compile binaries
-onlyBuiltDependencies:
-  - better-sqlite3
-  - esbuild
