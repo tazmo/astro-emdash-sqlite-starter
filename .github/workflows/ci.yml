@@ -108,7 +108,7 @@ jobs:
       - name: Dependency Review
         uses: actions/dependency-review-action@v5
         with:
-          path: ./
+          # path: ./
           base: ${{ github.base_ref }}
           head: ${{ github.head_ref }}
           config-file: '.github/dependency-review-config.yml'
