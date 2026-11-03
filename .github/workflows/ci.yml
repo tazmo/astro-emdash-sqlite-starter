@@ -103,13 +103,16 @@ jobs:
     # if: github.event_name == 'pull_request'
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
 
       - name: Dependency Review
         uses: actions/dependency-review-action@v5
         with:
+          path: ./
+          base: ${{ github.base_ref }}
+          head: ${{ github.head_ref }}
           config-file: '.github/dependency-review-config.yml'
-          fail-on-severity: moderate
+          # fail-on-severity: moderate
 
   skills-verification:
     name: Skills Verification
