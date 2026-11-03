@@ -109,8 +109,8 @@ jobs:
         uses: actions/dependency-review-action@v5
         with:
           # Fallback to the PR refs if they exist; otherwise use the previous commit vs current commit
-          base: ${{ github.base_ref || github.event.before }}
-          head: ${{ github.head_ref || github.sha }}
+          base-ref: ${{ github.base_ref || github.event.before }}
+          head-ref: ${{ github.head_ref || github.sha }}
           config-file: '.github/dependency-review-config.yml'
           # fail-on-severity: moderate
 
